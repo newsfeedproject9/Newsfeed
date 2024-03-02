@@ -4,8 +4,8 @@ const businessBtn = document.getElementById("business");
 const sportsBtn = document.getElementById("sport");
 const entertainmentBtn = document.getElementById("entertainment");
 const technologyBtn = document.getElementById("technology");
-const technologyBtn = document.getElementById("health");
-const technologyBtn = document.getElementById("science");
+const healthBtn = document.getElementById("health");
+const scienceBtn = document.getElementById("science");
 const searchBtn = document.getElementById("searchBtn");
 
 const newsQuery = document.getElementById("newsQuery");
@@ -23,8 +23,8 @@ const BUSINESS_NEWS = "https://newsapi.org/v2/top-headlines?country=in&category=
 const SPORTS_NEWS = "https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=";
 const ENTERTAINMENT_NEWS = "https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=";
 const TECHNOLOGY_NEWS = "https://newsapi.org/v2/top-headlines?country=in&category=technology&pageSize=8&apiKey=";
-const TECHNOLOGY_NEWS = "https://newsapi.org/v2/top-headlines?country=in&category=health&pageSize=&apiKey=";
-const TECHNOLOGY_NEWS = "https://newsapi.org/v2/top-headlines?country=in&category=science&pageSize=&apiKey=";
+const HEALTH_NEWS = "https://newsapi.org/v2/top-headlines?country=in&category=health&pageSize=&apiKey=";
+const SCIENCE_NEWS = "https://newsapi.org/v2/top-headlines?country=in&category=science&pageSize=&apiKey=";
 const SEARCH_NEWS = "https://newsapi.org/v2/everything?q=";
 
 window.onload = function() {
