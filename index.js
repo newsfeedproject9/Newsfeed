@@ -60,12 +60,12 @@ technologyBtn.addEventListener("click",function(){
 
 healthBtn.addEventListener("click",function(){
     newsType.innerHTML="<h4>Health</h4>";
-    fetchTechnologyNews();
+    fetchHealthNews();
 });
 
 scienceBtn.addEventListener("click",function(){
     newsType.innerHTML="<h4>Science</h4>";
-    fetchTechnologyNews();
+    fetchScienceNews();
 });
 
 searchBtn.addEventListener("click",function(){
